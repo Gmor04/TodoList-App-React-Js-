@@ -1,0 +1,180 @@
+
+main{
+  width: 100%;
+  height: 90vh;
+
+}
+.todolist{
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 2%;
+}
+.inputdiv{
+  width: 90%;
+  height: 7vh;
+  background-color: blue;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+    /* margin-top: 2%; */
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+::placeholder{
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+
+}
+.titleinp{
+  width: 20%;
+  height: 5vh;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+  
+
+}
+.decsinp{
+  width: 35%;
+  height: 5vh;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+}
+.timeinp{
+  width: 20%;
+  height: 5vh;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+}
+.submi{
+  width: 20%;
+  height: 5vh;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: white;
+
+}
+
+.coverr{
+  width: 90%;
+  height: 6vh;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.checkkbox{
+  width: 5%;
+  height: 4vh;
+}
+.titlee{
+  width: 23%;
+  height: 4vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+}
+.decp{
+  width: 42%;
+  height: 4vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  
+}
+.timmee{
+  width: 10%;
+  height: 4vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+}
+.ediit{
+  width: 5%;
+  height: 4vh;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: 800;
+  color: blue;
+}
+#audio{
+  visibility: hidden;
+}
+#editinputt{
+  width: 100%;
+  height: 100%;
+}
+.pendding{
+  width: 50%;
+  height: 4vh;
+  background-color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.div-pending{
+  width: 80%;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: white;
+  font-weight: 600;
+}
+
+.div-clear{
+  width: 20%;
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
